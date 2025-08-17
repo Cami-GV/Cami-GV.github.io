@@ -36,6 +36,8 @@ header {
   align-items: center;
   justify-content: space-evenly;
   background-color: #2A093E;
+  height: 100%;
+  width: 100%;
 }
 
 header > a {
@@ -67,6 +69,7 @@ main {
   border-radius: 15%;
   border: 2px solid black;
   margin: 0% 10%;
+  justify-content: center;
 }
 
 .bio > .right-side {
@@ -110,8 +113,8 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: start; 
-  height: 1.5em;
+  justify-content: space-evenly;
+  height: 1.75em;
   width: 100%;
   background-color:  #2A093E;
 }
@@ -119,6 +122,10 @@ footer {
 footer a {
   color:  white;
   text-decoration: none;
+}
+
+footer p {
+  color: white;
 }
 
 /*  ====  Mobile Resposive  ===  */
