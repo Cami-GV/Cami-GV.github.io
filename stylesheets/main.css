@@ -25,7 +25,6 @@ th, td {
 body {
   display: flex;
   flex-direction: column;
-  flex: auto;
   height: 100%;
   margin: 0;
 }
@@ -51,7 +50,6 @@ header > a {
 
 main {
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
   padding: 0.5ex 1em;
   background-color: #F4E9FC;
 }
@@ -88,7 +86,6 @@ main {
 
 .gallery {
   display: flex;
-  flex-direction: row;
   margin: 1em;
   gap: 1em;
   justify-items: center;
@@ -96,11 +93,10 @@ main {
 
 .gallery-item {
   text-align: center;
-  width: 15%;
-  aspect-ratio: 0.9;
+  width: 33%;
+  height: 100%;
   padding: 0;
   margin: 0;
-  border: 2px solid  #2A093E;
 }
 
 .gallery-item  p {
@@ -109,14 +105,14 @@ main {
   justify-content: center;
   margin: 0;
   padding: 0;
-  height: 3.5em;
+  height: 3.8em;
   color: white;
-  background-color:  #2A093E;
+  background-color: #2A093E;
 }
 
 .gallery-item:hover  p {
-  color: #2A093E;
-  background-color: #E1C1F6; 
+  background-color: #2A093E;
+  color: white;
 }
 
 footer {
