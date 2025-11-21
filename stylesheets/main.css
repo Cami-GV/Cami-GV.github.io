@@ -115,11 +115,6 @@ main {
   background-color: #2A093E;
 }
 
-.gallery-item:hover  p {
-  background-color: #2A093E;
-  color: white;
-}
-
 footer {
   display: flex;
   flex-direction: row;
