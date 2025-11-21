@@ -99,13 +99,18 @@ main {
   margin: 0;
 }
 
-.gallery-item  p {
+.gallery-item  a {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
   padding: 0;
   height: 3.8em;
+  color: white;
+  background-color: #2A093E;
+}
+
+.gallery-item:hover a {
   color: white;
   background-color: #2A093E;
 }
