@@ -191,5 +191,19 @@ footer p {
   .gallery-item {
     width: 100%;
   }
+
+  .articles-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .articles-item > .left-side {
+    width: 100%;
+  }
+
+  .recent > h1 {
+    width: 75%;
+  }
+
 }
 
