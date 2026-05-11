@@ -189,7 +189,8 @@ footer p {
 
 .articles {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  width: 80%;
 }
 
 .articles-item {
@@ -200,12 +201,12 @@ footer p {
 
 .articles-item > .left-side {
   align-content: center;
+  text-align: left;
 }
 
 .articles-item > .right-side {
   align-content: center;
-  text-align: left;
-  width: 90%;
+  text-align: right;
 }
 
 .articles-item > .left-side > img {
