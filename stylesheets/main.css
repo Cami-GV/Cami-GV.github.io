@@ -68,7 +68,7 @@ main {
 }
 
 .bio > .left-side > img {
-  width: 50%;
+  width: 60%;
   border-radius: 15%;
   border: 2px solid black;
   justify-content: center;
@@ -167,7 +167,6 @@ footer {
   height: 1.5em;
   width: 100%;
   background-color:  #ccccff;
-  position: fixed;
   bottom: 0;
 }
 
