@@ -254,5 +254,9 @@ footer p {
     text-align: center;
   }
 
+  .recent > embed {
+    height: 450px;
+  }
+
 }
 
